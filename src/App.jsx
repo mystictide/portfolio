@@ -1,8 +1,8 @@
-import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import AnimatedRoutes from "./components/animatedRoutes";
 import Header from "./components/header";
-import Home from "./pages/main/home";
 
 function App() {
   return (
@@ -10,9 +10,7 @@ function App() {
       <Router>
         <div className="page-container">
           <Header />
-          <Routes>
-            <Route path="/" element={<Home />} />
-          </Routes>
+          <AnimatedRoutes />
         </div>
       </Router>
       <ToastContainer

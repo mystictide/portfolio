@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 
-function Home() {
+function Contact() {
   return (
     <motion.div
       className="main"
@@ -10,11 +10,11 @@ function Home() {
     >
       <section className="content content-wrapper">
         <div className="view">
-          <h2>Working on it!</h2>
+          <h2>Contact</h2>
         </div>
       </section>
     </motion.div>
   );
 }
 
-export default Home;
+export default Contact;

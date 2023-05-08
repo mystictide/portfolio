@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
+import ProjectList from "../lists/projectList";
 
-function Home() {
+function Projects() {
   return (
     <motion.div
       className="main"
@@ -10,11 +11,11 @@ function Home() {
     >
       <section className="content content-wrapper">
         <div className="view">
-          <h2>Working on it!</h2>
+          <ProjectList />
         </div>
       </section>
     </motion.div>
   );
 }
 
-export default Home;
+export default Projects;
