@@ -130,12 +130,24 @@ a {
             justify-content: space-between;
 
             .logo {
+                width: 50%;
                 font-size: 1.8rem;
                 font-family: $font-mont;
                 opacity: 0.8;
                 &:hover {
                     opacity: 1;
                     text-shadow: 0 0 15px $color-flavour;
+                }
+            }
+
+            .link {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                width: 50%;
+                &:hover {
+                    background-color: $color-flavour;
                 }
             }
         }
@@ -165,6 +177,35 @@ a {
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+            }
+
+            .self {
+                row-gap: 2rem;
+                h1 {
+                    width: 100%;
+                    display: block;
+                    text-align: left;
+                    font-size: 3rem;
+                    span {
+                        display: block;
+                        margin-left: 25%;
+                        font-size: 0.7rem;
+                    }
+                }
+
+                h2 {
+                    width: 100%;
+                    display: block;
+                    text-align: center;
+                    font-size: 2rem;
+                }
+
+                .email {
+                    border-bottom: 1px solid $color-flavour;
+                }
+                .github {
+                    font-size: 2rem;
+                }
             }
 
             .items {
@@ -259,56 +300,6 @@ a {
                             width: 100%;
                         }
                     }
-                }
-            }
-        }
-    }
-}
-
-.modal-container {
-    min-height: 100vh;
-    position: fixed;
-    top: 0px;
-    left: 0;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 23128;
-    .modal-overlay {
-        width: 100%;
-        min-height: 100vh;
-        cursor: auto;
-        background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyAQMAAAAk8RryAAAABlBMVEUAAAD///+l2Z/dAAAAAnRSTlP/AOW3MEoAAAAOSURBVBiVY2AYBYMJAAABkAAB2POVPwAAAABJRU5ErkJggg==)
-            repeat 0 0;
-        opacity: 0.7;
-    }
-
-    .modal-content {
-        position: absolute;
-        background: $bg-main;
-        border-radius: 5px;
-        min-width: 400px;
-        padding: 1.3rem 2rem;
-        z-index: 9;
-        color: $font-main;
-        border: 1px solid rgba($color-flavour, 0.5);
-
-        .heading {
-            font-size: 0.5rem;
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            justify-content: space-between;
-
-            svg {
-                font-size: 1.8rem;
-                color: $font-mont;
-                opacity: 0.6;
-                &:hover {
-                    opacity: 1;
-                    cursor: pointer;
                 }
             }
         }

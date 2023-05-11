@@ -8,14 +8,11 @@ const Header = () => {
           <Link to="/" className="logo">
             FRKN
           </Link>
-          <Link to="/skills" className="logo">
+          <Link to="/skills" className="link">
             Skills
           </Link>
-          <Link to="/projects" className="logo">
+          <Link to="/projects" className="link">
             Projects
-          </Link>
-          <Link to="/contact" className="logo">
-            Contact
           </Link>
         </nav>
         <div className="seperator" />
