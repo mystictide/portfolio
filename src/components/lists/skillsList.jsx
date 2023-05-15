@@ -23,7 +23,7 @@ function SkillsList() {
         title="Node.js"
         className="box"
         style={{
-          backgroundImage: `url("https://i.imgur.com/zsksKqc.jpg")`,
+          backgroundImage: `url("https://i.imgur.com/J0D6n3P.jpg")`,
         }}
       >
         <h4 className="info">Node</h4>
