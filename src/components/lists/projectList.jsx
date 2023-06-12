@@ -98,6 +98,37 @@ function ProjectList() {
       <li
         className="box project"
         style={{
+          backgroundImage: `url("https://i.imgur.com/fvMMwjl.png")`,
+        }}
+      >
+        <h4 className="info">Tester</h4>
+        <div className="links">
+          <div className="repo">
+            <Link to={"https://tester.herrguller.cc/"} target="_blank">
+              Live
+            </Link>
+          </div>
+          <div className="repo">
+            <Link
+              to={"https://github.com/mystictide/tester.client"}
+              target="_blank"
+            >
+              Front-end
+            </Link>
+          </div>
+          <div className="repo">
+            <Link
+              to={"https://github.com/mystictide/tester.api"}
+              target="_blank"
+            >
+              Back-end
+            </Link>
+          </div>
+        </div>
+      </li>
+      <li
+        className="box project"
+        style={{
           backgroundImage: `url("https://i.imgur.com/HejkRMo.png")`,
         }}
       >
